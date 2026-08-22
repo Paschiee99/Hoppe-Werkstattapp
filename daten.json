@@ -1,3 +1,6 @@
-{
-  "eintraege": []
-}
+} catch (error) {
+        console.error("EXakter GitHub-Fehler:", error);
+        alert("GitHub-Fehler: " + error.message);
+        
+        appDaten = { eintraege: [] };
+    }
